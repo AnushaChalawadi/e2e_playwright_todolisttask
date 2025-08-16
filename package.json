@@ -1,0 +1,16 @@
+{
+  "name": "e2e-playwright",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "regressionTest" : "npx playwright test tests/todoTest.spec.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.54.2",
+    "@types/node": "^24.3.0"
+  }
+}
